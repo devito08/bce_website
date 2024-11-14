@@ -1,4 +1,5 @@
 import AboutUs from "./AboutUs";
+import Courses from "./Courses";
 
 const Home = () => {
     
@@ -52,25 +53,25 @@ const Home = () => {
     {/* Circle 1 */}
     <div className="bg-red-700 flex flex-col items-center justify-center rounded-full h-48 w-48">
       <img src="./src/assets/practical.jpg" alt="lab_image" className="w-20 h-10" />
-      <h1 className="mt-4 text-white font-bold">Software Courses</h1>
+      <h1 className="mt-4 text-white font-bold">Programming</h1>
     </div>
     
     {/* Circle 2 */}
     <div className="bg-blue-950 flex flex-col items-center justify-center rounded-full h-48 w-48">
       <img src="./src/assets/practical.jpg" alt="lab_image" className="w-20 h-10" />
-      <h1 className="mt-4 text-white font-bold">Software Courses</h1>
+      <h1 className="mt-4 text-white font-bold">Full Stack Development</h1>
     </div>
 
     {/* Circle 3 */}
     <div className="bg-green-700 flex flex-col items-center justify-center rounded-full h-48 w-48">
       <img src="./src/assets/practical.jpg" alt="lab_image" className="w-20 h-10" />
-      <h1 className="mt-4 text-white font-bold">Software Courses</h1>
+      <h1 className="mt-4 text-white font-bold">Accounting Courses</h1>
     </div>
 
     {/* Circle 4 */}
     <div className="bg-blue-600 flex flex-col items-center justify-center rounded-full h-48 w-48">
       <img src="./src/assets/practical.jpg" alt="lab_image" className="w-20 h-10" />
-      <h1 className="mt-4 text-white font-bold">Software Courses</h1>
+      <h1 className="mt-4 text-white font-bold">MS-OFFICE</h1>
     </div>
 
     {/* Circle 5 */}
@@ -83,7 +84,9 @@ const Home = () => {
 
                 
             </section>
+            
             <AboutUs/>
+            <Courses/>
         </div>
     );
 };

@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom"
 const Navbar=()=> {
   return (
-    <nav className="bg-blue-600 p-8 w-full">
+    <nav className="bg-purple-950 p-4 w-full">
       <div className="container mx-auto flex justify-between items-center">
-
+      <img src="./src/assets/logo.png" alt="logo" className="w-48 h-28"/>
         {/* logo */}
-        <div className="text-white text-large font-black mx-14">
+        <div className="text-yellow-500 text-large">
+    
           BEST COMPUTER EDUCATION
         </div>
 

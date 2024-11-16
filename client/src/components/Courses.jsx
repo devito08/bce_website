@@ -1,9 +1,13 @@
 
 function Courses() {
   return (
-    <div>
+    <div className="bg-white">
       <div className="bg-white">
+        <div className="justify-between text-center mt-10">
+        <h1 className="text-3xl font-semibold text-blue-700">COURSES</h1>
+        </div>
         <div className="flex flex-wrap items-center justify-center gap-10 mt-10">
+          
         {/* Circle 1 */}
         <div className="bg-red-700 flex flex-col items-center justify-center rounded-full h-48 w-48">
           <img src="./src/assets/practical.jpg" alt="lab_image" className="w-20 h-10" />

@@ -28,14 +28,27 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="bg-darkBlue  w-full">
-      <div className="container mx-auto flex justify-between items-center">
+    <nav className="bg-darkBlue p-4 w-full">
+      <div className="flex justify-between items-center">
         {/* Logo */}
-        <div className="flex mx-14">
-          <img src="./src/assets/2.png" alt="logo" className="w-32 h-20 md:w-28 md:h-28" />
-          {/* <h1 className="text-white">BEST COMPUTER EDUCATION</h1> */}
-          
-        </div>
+        
+        <div className="flex justify-center items-center h-20 bg-darkBlue">
+  <div className="text-center">
+    <img src="./src/assets/qwer.png" alt="logo" className="h-10"/>
+    <h1 className="text-yellow-400 text-xl sm:text-5xl md:text-2xl font-bold animate-pulse ">
+      BEST COMPUTER EDUCATION
+    </h1>
+    <h2 className="text-white  text-xl sm:text-3xl md:text-xl font-medium animate-slideInLeft delay-50">
+      (SINCE - 1999)
+    </h2>
+  </div>
+</div>
+
+
+
+
+
+
 
         {/* Menubar */}
         <div className="hidden md:flex space-x-10 mx-auto">

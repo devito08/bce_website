@@ -7,7 +7,7 @@ function AboutUs() {
 
         {/* left-image */}
         <div className="">
-          <img src="./src/assets/government.jpg" alt="certificate" className="mx-40"/>
+          <img src="/assets/government.jpg" alt="certificate" className="mx-40"/>
         </div>
 
         {/* right-side */}

@@ -34,8 +34,8 @@ const Navbar = () => {
         
         <div className="flex justify-center items-center h-20 bg-darkBlue">
   <div className="text-center">
-    <img src="./src/assets/qwer.png" alt="logo" className="h-10"/>
-    <h1 className="text-yellow-400 text-xl sm:text-5xl md:text-2xl font-bold animate-pulse ">
+    {/* <img src="./src/assets/qwer.png" alt="logo" className="h-10"/> */}
+    <h1 className="text-yellow-400 text-xl sm:text-5xl md:text-2xl font-bold animate-pulse  ">
       BEST COMPUTER EDUCATION
     </h1>
     <h2 className="text-white  text-xl sm:text-3xl md:text-xl font-medium animate-slideInLeft delay-50">

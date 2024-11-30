@@ -55,31 +55,31 @@ const Home = () => {
           <div className="flex flex-wrap items-center justify-center gap-10 mt-48">
             {/* Circle 1 */}
             <div className="bg-red-700 flex flex-col items-center justify-center rounded-full h-48 w-48 animate-bounce">
-          <img src="./src/assets/ux.png" alt="lab_image" className="w-auto h-20" />
+          <img src="/assets/ux.png" alt="lab_image" className="w-auto h-20" />
             <h1 className="mt-4 text-white font-bold text-xm">Programming</h1>
             </div>
 
             {/* Circle 2 */}
             <div className="bg-blue-950 flex flex-col items-center justify-center rounded-full h-48 w-48 animate-bounce">
-            <img src="./src/assets/programming.png" alt="lab_image" className="w-auto h-20" />
+            <img src="/assets/programming.png" alt="lab_image" className="w-auto h-20" />
             <h1 className="mt-4  text-white font-bold text-xm justify-center items-center">FSD</h1>
             </div>
 
             {/* Circle 3 */}
             <div className="bg-green-700 flex flex-col items-center justify-center rounded-full h-48 w-48 animate-bounce">
-            <img src="./src/assets/accounting.png" alt="lab_image" className="w-auto h-16" />
+            <img src="/assets/accounting.png" alt="lab_image" className="w-auto h-16" />
             <h1 className="mt-4 text-white font-bold text-xm">Accounting Courses</h1>
             </div>
 
             {/* Circle 4 */}
             <div className="bg-blue-600 flex flex-col items-center justify-center rounded-full h-48 w-48 animate-bounce">
-            <img src="./src/assets/microsoft.png" alt="lab_image" className="w-20 h-20" />
+            <img src="/assets/microsoft.png" alt="lab_image" className="w-20 h-20" />
             <h1 className="mt-4 text-white font-bold text-xm">MS-OFFICE</h1>
             </div>
 
             {/* Circle 5 */}
             <div className="bg-yellow-500 flex flex-col items-center justify-center rounded-full h-48 w-48 animate-bounce overflow-hidden">
-            <img src="./src/assets/online-course.png" alt="lab_image" className="w-20 h-20" />
+            <img src="/assets/online-course.png" alt="lab_image" className="w-20 h-20" />
             <h1 className="mt-4 text-white font-bold text-xm">Software Courses</h1>
             </div>
           </div>
